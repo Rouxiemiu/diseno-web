@@ -1,0 +1,36 @@
+.gracias{
+	background: url("../img/bg-portada.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	width: 100%;
+	color:$color-white;
+
+	@include mobile{
+		width: 100%;
+	}
+	h1{
+		font-size: 3.5rem;
+		text-align: center;
+		margin-top: 35rem;
+		background: $color-contacto;
+		border-radius: 1rem;
+		
+
+		@include mobile{
+			font-size: 2rem;
+		
+		}
+	}
+
+	h2{
+		font-size: 1.5rem;
+		text-align: center;
+		margin-top: 2rem;
+		background: $color-contacto;
+		border-radius: 1rem;
+
+		@include mobile{
+			font-size: 1rem;
+		}
+	}
+}
